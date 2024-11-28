@@ -65,10 +65,10 @@ python3 spectral_analysis.py config.yaml
 
 - **Ref Analysis (First Derivative)**:
   - Shaded regions: Light blue (1700–1750 nm), Light gray (2300–2350 nm)
-  - Reflectance transformed using the first derivative
+  - Reflectance transformed using the no transformation
 
 - **Charring Analysis (SNV)**:
-  - Shaded regions: Light blue (1300–1400 nm), Magenta (1850–1900 nm)
+  - Shaded regions: Light blue (1300–1400 nm), Magenta (1850–1900 nm), Light gray (2250-2350 nm)
   - Reflectance normalized using SNV
 
 ## Project Structure
