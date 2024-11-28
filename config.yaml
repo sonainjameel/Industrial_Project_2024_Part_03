@@ -1,0 +1,7 @@
+folders:
+  - "/Users/sonainjamil/Library/CloudStorage/OneDrive-UniversityofEasternFinland/Industrial_Project/Organized_data/Ref/Oil_level0"
+  - "/Users/sonainjamil/Library/CloudStorage/OneDrive-UniversityofEasternFinland/Industrial_Project/Organized_data/Ref/Oil_level1"
+  - "/Users/sonainjamil/Library/CloudStorage/OneDrive-UniversityofEasternFinland/Industrial_Project/Organized_data/Ref/Oil_level2"
+  - "/Users/sonainjamil/Library/CloudStorage/OneDrive-UniversityofEasternFinland/Industrial_Project/Organized_data/Ref/Oil_level3"
+transformation: "no"  # Options: "no", "SNV", "first_derivative", "second_derivative"
+is_ref: true  # true for 'ref', false for 'charring'
