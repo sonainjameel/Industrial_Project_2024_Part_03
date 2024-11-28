@@ -74,7 +74,7 @@ python3 spectral_analysis.py config.yaml
 ## Project Structure
 
 ```
-industrial_project_part3/
+Industrial_Project_2024_Part_03/
 ├── config.yaml               # Configuration file for paths and parameters
 ├── spectral_analysis.py      # Script for spectral processing and plotting
 ├── requirements.txt          # Required libraries
