@@ -1,5 +1,5 @@
 
-# Industrial Project Part 3: Reflectance Analysis and Spectral Transformations
+# Industrial Project Part 3: Reflectance Analysis and Spectral Transformations 
 
 This project processes and analyzes reflectance spectra from spectral data. It provides transformation options (e.g., SNV, first derivative, second derivative) and dynamically adjusts visualization for either `Ref` or `Charring` analysis based on the input configuration.
 
