@@ -3,7 +3,7 @@ import numpy as np
 import os
 import matplotlib.pyplot as plt
 import yaml
-from envi2 import *  # Ensure you have the required `envi2` package
+from envi2 import *  # Ensure you have the required `envi2` file
 from matplotlib.patches import Rectangle
 
 def process_folder(folder_path):
@@ -91,8 +91,11 @@ def plot_spectra(folders, transformation, is_ref):
         plt.axvline(x=1400, color='blue', linestyle='--', linewidth=1.5)
         plt.axvline(x=1850, color='magenta', linestyle='--', linewidth=1.5)
         plt.axvline(x=1900, color='magenta', linestyle='--', linewidth=1.5)
+        plt.axvline(x=2250, color='black', linestyle='--', linewidth=1.5)
+        plt.axvline(x=2350, color='black', linestyle='--', linewidth=1.5)
         plt.axvspan(1300, 1400, color='lightblue', alpha=0.3)
         plt.axvspan(1850, 1900, color='magenta', alpha=0.3)
+        plt.axvspan(2250, 2350, color='lightgray', alpha=0.3)
 
     # Configure plot
     plt.xlabel('Wavelength (nm)', fontsize=24)
