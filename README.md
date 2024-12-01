@@ -1,6 +1,9 @@
 
 # Industrial Project Part 3: Reflectance Analysis and Spectral Transformations 
 
+> **_⚠️ Note:_**  
+> **_This code has been tested on Python versions 3.10.5 and 3.12.4._** 
+
 This project processes and analyzes reflectance spectra from spectral data. It provides transformation options (e.g., SNV, first derivative, second derivative) and dynamically adjusts visualization for either `Ref` or `Charring` analysis based on the input configuration.
 
 ## Features
